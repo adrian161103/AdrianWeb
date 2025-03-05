@@ -1,12 +1,26 @@
-# React + Vite
+# AdrianWeb
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Hola! Soy Adrian y esta es mi página personal. En este sitio comparto mis proyectos, habilidades y las tecnologías que utilizo en mi día a día como desarrollador web. El proyecto está alojado en GitHub Pages y refleja mi pasión por el desarrollo web y la innovación.
 
-Currently, two official plugins are available:
+## Tecnologías que utilizo
+En este sitio empleo principalmente:
+- **HTML5:** Para estructurar de forma semántica el contenido.
+- **CSS3:** Para los estilos y el diseño visual.
+- **JavaScript:** Para agregar interactividad y dinamismo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+> Nota: Es posible que también utilice librerías o frameworks adicionales para optimizar el rendimiento y la experiencia del usuario.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contribuciones
+
+Estoy abierto a sugerencias y colaboraciones. Si deseas contribuir, puedes:
+- Abrir un *issue* para discutir posibles mejoras.
+- Enviar un *pull request* con tus propuestas.
+
+## Contacto
+
+Si tienes dudas, sugerencias o simplemente deseas ponerte en contacto, no dudes en escribirme a través de mi correo electrónico o redes sociales.
+
+## Licencia
+
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
