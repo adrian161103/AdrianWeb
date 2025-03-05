@@ -5,7 +5,7 @@ function AboutMe() {
       <h1 className="titleHB">¿Quien Soy?</h1>
       <div className="ContPimg">
       <div className="imgAMCont">
-          <img className="imgAM" src="public/img/yo.jpg" alt="yo" />
+          <img className="imgAM" src="img/yo.jpg" alt="yo" />
         </div>
         <div className="textContainerAM">    
         <p className="textAM"> 
@@ -17,10 +17,10 @@ function AboutMe() {
         </p>
         <div className="buttonsAM">
         <button className="buttonAM1">     
-               <a className="a1" target="_blank" href="public\Adrian Alejos Curriculum Vitate.pdf">CV ES</a>
+               <a className="a1" target="_blank" href="Adrian Alejos Curriculum Vitate.pdf">CV ES</a>
         </button>
         <button className="buttonAM2">
-        <a  className="a2" target="_blank" href="public\Adrian Alejos Garcia CV PERFORMANCE.pdf"  >CV IN</a>
+        <a  className="a2" target="_blank" href="Adrian Alejos Garcia CV PERFORMANCE.pdf"  >CV IN</a>
         </button>
         </div>
         </div>

@@ -28,10 +28,7 @@ function Footer({ socials }) {
       </div>
       <div className="footer-bottom">
         <p>&copy; copyright 2025</p>
-        <p>
-          Desarrollado por:{" "}
-          <a href="https://github.com/adrian161103">ADRIAN</a>
-        </p>
+       
       </div>
     </footer>
   );

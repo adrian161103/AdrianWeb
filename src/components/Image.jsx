@@ -9,7 +9,7 @@ function image() {
     <Particles  init={particlesInit}
             loaded={particlesLoaded}
             options={options} />
-      <img className="Image"  src="../../public/img/cyber.jpg" alt="CyberPunk" draggable="false" style={{ userSelect: "none", pointerEvents: "none" }}/>
+      <img className="Image"  src="img/cyber.jpg" alt="CyberPunk" draggable="false" style={{ userSelect: "none", pointerEvents: "none" }}/>
     </>
   );
 }

@@ -17,13 +17,13 @@ function Certificado() {
         <div className="container">
           <a 
             className="linkWrapper" 
-            href="public/Certificados.pdf" 
+            href="Certificados.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
           >
             <img
               className="imgCertificado"
-              src="public/img/Certificado.png"
+              src="img/Certificado.png"
               alt="certificado"
             />  <span className='overlays'>CLICK PARA VER EL CERTIFICADO</span>
           </a>
