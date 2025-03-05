@@ -1,0 +1,95 @@
+.imgCertificado {
+    width: 100%;
+    border-radius: 5vh;
+    transition: all 2s ease;
+    display: block;
+    
+  }
+  
+  .certificadoContainer {
+    margin-top: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .linkWrapper{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .container{
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    margin-top: 2rem;
+ }
+  
+  /* Overlay centrado sobre la imagen */
+.overlays {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2rem;
+  opacity: 0;
+  pointer-events: none; /* Si no quieres que interfiera con el clic */
+  transition: all 2s;;
+
+}
+  
+  /* Al pasar el cursor, la imagen se desenfoca y aparece el overlay */
+  .imgCertificado:hover{
+    filter: blur(5px);
+  }
+  .imgCertificado:hover + .overlays{
+  color: #f0f;
+  text-shadow: 0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 40px #d0f;
+  opacity: 1;
+  }
+  
+
+@media (max-width: 480px) {
+  .certificadoContainer {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .imgCertificado {
+    margin-top: 2rem;
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+ }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .certificadoContainer {
+    margin-top: 1rem;
+    flex-direction: column;
+  }
+  .imgCertificado {
+    width: 100%;
+    margin-top: 2rem;
+  }
+  .container{
+    width: 100%;
+ }
+
+}
+
+@media (min-width: 768px) and (max-width: 1680px) {
+  .certificadoContainer {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .imgCertificado {
+    margin-top: 2rem;
+  }
+  .container{
+    width: 80%;
+ }
+ 
+ 
+}
