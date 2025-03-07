@@ -24,7 +24,7 @@
     margin-top: 2rem;
  }
   
-  /* Overlay centrado sobre la imagen */
+
 .overlays {
     position: absolute;
   top: 50%;
@@ -32,12 +32,12 @@
   transform: translate(-50%, -50%);
   font-size: 1.2rem;
   opacity: 0;
-  pointer-events: none; /* Si no quieres que interfiera con el clic */
+  pointer-events: none;
   transition: all 2s;;
 
 }
   
-  /* Al pasar el cursor, la imagen se desenfoca y aparece el overlay */
+
   .imgCertificado:hover{
     filter: blur(5px);
   }
@@ -49,6 +49,9 @@
   
 
 @media (max-width: 480px) {
+  .overlays {
+  font-size: 1rem;
+}
   .certificadoContainer {
     flex-direction: column;
     margin-top: 1rem;
@@ -64,6 +67,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  
   .certificadoContainer {
     margin-top: 1rem;
     flex-direction: column;
@@ -88,7 +92,7 @@
     margin-top: 2rem;
   }
   .container{
-    width: 80%;
+    width: 70%;
  }
  
  

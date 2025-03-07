@@ -10,7 +10,7 @@ import { SiPostman } from "react-icons/si";
 function Tecnologias() {
   return (
     <section id="Tecnologias"  className="HBcontainer Tcontainer">
-          <h2 className="titleIcon">Tecnologías que manejo</h2>
+          <h2 className="titleHB">Tecnologías que manejo</h2>
       <div className="IconContainerHB">
       <div className="IconWrapper">
         <IoLogoJavascript className="IconHB" color="#F7DF1E" />

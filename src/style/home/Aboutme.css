@@ -13,7 +13,7 @@
 }
 
 .imgAMCont{
-  width: 90%;
+  width: 120%;
   margin-right: 2rem;
 }
 .ContPimg{
@@ -78,6 +78,9 @@
 
 
 @media (max-width: 480px) {
+    .imgAMCont{
+        width: 100%;
+      }
     .AMcontainer{
         margin: 0 10vw 0 8vw;
         margin-top: 40vh !important;
@@ -132,7 +135,7 @@
 
     .imgAM {
      border-radius: 3rem;
-     width: 80%
+     width: 40%
     }
     .ContPimg {
         flex-direction: column;

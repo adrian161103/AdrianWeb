@@ -12,25 +12,31 @@ function Habilidades() {
           <p className="textHB1">
           En cuanto a mis habilidades técnicas, manejo lo siguiente: 
           </p>
-          <p className="textHB">
-          Frontend:
-          Desarrollo interfaces dinámicas y responsivas usando React.js aplicando HTML5, CSS3 y Bootstrap, y utilizando técnicas
-          modernas como Flexbox, Grid y HTML semántico. También empleo
-          framer-motion para crear animaciones. </p>
-          <p className="textHB"> Backend: Trabajo con Node.js y
-          Express.js para crear y mantener APIs RESTful, implementando
-          autenticación y seguridad mediante JWT y bcrypt. 
-          </p>  
-          <p className="textHB">Bases de Datos:
-          Integro y gestiono bases de datos NoSQL como MongoDB, y también tengo 
-          experiencia con Firebase y MySQL, gestionando los verbos http con Postman. 
+          <p style={{marginTop: "1rem"}} className="textAM">
+          <span> Frontend:</span>
+          <ul>
+          <li>React.js, Next.js, HTML5, CSS3, Bootstrap</li>
+          <li>Creación de interfaces dinámicas y responsivas.</li>
+          <li>Redux, React Router, React Query y Hooks.</li>
+          <li> Framer Motion para animaciones y transiciones atractivas.</li>
+          <li>Desarrollo de componentes reusables y escalables.</li>
+          </ul>
           </p>
-          <p className="textHB">
-          Control y Herramientas: Uso Git y
-          GitHub para el control de versiones, y configuro proyectos con
-          herramientas como Vite. Además, gestiono estados complejos en
-          aplicaciones escalables utilizando Redux. Estos conocimientos me
-          permiten desarrollar soluciones web completas y optimizadas.
+          <p className="textAM"> 
+            <span>Backend:</span>
+            <ul>
+          <li>Node.js, Express.js</li>
+          <li>Desarrollo y consumo de APIs REST.</li>
+          <li>Integración con bases de datos NoSQL (MongoDB) y SQL (MySQL).</li>
+          <li>Seguridad y autenticación con JWT y bcrypt.</li>
+          </ul>
+          </p>
+          <p className="textAM">
+          Control de Versiones:
+          <ul>
+          <li>Git y GitHub para el seguimiento y colaboración en proyectos.</li>
+          <li>Implementación de CI/CD para despliegues automatizados y optimizados.</li>
+          </ul>
           </p>
         </span>
         </div>
