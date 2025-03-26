@@ -26,7 +26,7 @@ function AboutMe() {
               <a
                 className="a1"
                 target="_blank"
-                href="Adrian Alejos Curriculum Vitate.pdf"
+                href="public/Adrian Alejos Garcia Curriculum Vitae.pdf"
               >
                 CV ES
               </a>
@@ -35,7 +35,7 @@ function AboutMe() {
               <a
                 className="a2"
                 target="_blank"
-                href="Adrian Alejos Garcia CV PERFORMANCE.pdf"
+                href="public/Adrian Alejos Garcia Curriculum Vitae Performance.pdf"
               >
                 CV EN
               </a>
