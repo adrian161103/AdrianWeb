@@ -40,7 +40,7 @@ function Header() {
             <a href="#Tecnologias" onClick={() => setMenuOpen(false)}>TECNOLOGIAS</a>
           </li>
           <li className="HeaderLi">
-            <a target="_blank" href="Adrian Alejos Garcia Curriculum Vitae Performance.pdf"  onClick={() => setMenuOpen(false)}>CV ENGLISH</a>
+            <a target="_blank" href="Curriculum Adrian Alejos Garcia.pdf"  onClick={() => setMenuOpen(false)}>CV ENGLISH</a>
           </li>
           <li className="HeaderLi">
             <a target="_blank" href="Adrian Alejos Garcia Curriculum Vitae.pdf" onClick={() => setMenuOpen(false)}>CV ESPAÑOL</a>

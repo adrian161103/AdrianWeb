@@ -5,7 +5,7 @@ function AboutMe() {
       <h1 className="titleHB">¿Quien Soy?</h1>
       <div className="ContPimg">
         <div className="imgAMCont">
-          <img className="imgAM" src="img/yo.jpg" alt="yo" />
+          <img className="imgAM" src="img/nuevoYo2.jpg" alt="yo" />
         </div>
         <div className="textContainerAM">
           <p className="textAM">
@@ -35,7 +35,7 @@ function AboutMe() {
               <a
                 className="a2"
                 target="_blank"
-                href="Adrian Alejos Garcia Curriculum Vitae Performance.pdf"
+                href="Curriculum Adrian Alejos Garcia.pdf"
               >
                 CV EN
               </a>
