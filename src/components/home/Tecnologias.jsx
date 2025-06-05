@@ -7,6 +7,8 @@ import { BiLogoMongodb } from "react-icons/bi";
 import { FiGithub } from "react-icons/fi";
 import { SiVite } from "react-icons/si";
 import { SiPostman } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
 function Tecnologias() {
   return (
     <section id="Tecnologias"  className="HBcontainer Tcontainer">
@@ -40,8 +42,13 @@ function Tecnologias() {
         <div className="IconWrapper">
         <SiPostman className="IconHB" color="#FF6C37"/>
         </div>
-       
-       
+         <div className="IconWrapper">
+        <SiTypescript className="IconHB" color="#3178c6"/>
+        </div>
+        <div className="IconWrapper">
+        <RiTailwindCssFill className="IconHB" color="#06B6D4"/>
+        </div>
+
       </div>
     </section>
   )
