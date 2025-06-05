@@ -12,7 +12,7 @@ function AboutMe() {
             <span>
             Soy Adrián Alejos García, estudiante de Ingeniería en Sistemas de
             Información en la UTN y desarrollador Full Stack con experiencia en
-            tecnologías como React.js, Node.js y bases de datos NoSQL. Mi
+            tecnologías como React.js, Node.js y bases de datos NoSQL, y desarrollando tanto como en Javascript y Typescript. Mi
             enfoque está en la construcción de aplicaciones web eficientes,
             escalables y seguras, aplicando principios sólidos de ingeniería. Aquí encontrarás mis proyectos, habilidades y experiencia
             en desarrollo web,

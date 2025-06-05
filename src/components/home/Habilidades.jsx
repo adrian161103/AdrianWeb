@@ -15,7 +15,7 @@ function Habilidades() {
           <p style={{marginTop: "1rem"}} className="textAM">
           <span> Frontend:</span>
           <ul>
-          <li>React.js, Next.js, HTML5, CSS3, Bootstrap</li>
+          <li>React.js,TailwindCss, Next.js, HTML5, CSS3, Bootstrap</li>
           <li>Creación de interfaces dinámicas y responsivas.</li>
           <li>Redux, React Router, React Query y Hooks.</li>
           <li> Framer Motion para animaciones y transiciones atractivas.</li>
